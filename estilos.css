@@ -1,0 +1,71 @@
+*{
+    text-decoration:none;
+    list-style: none;
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+}
+
+.container{
+    height: 100vh;
+    width:100vw;
+    overflow: hidden;
+    display:flex;
+}
+
+.panel{
+    height:100%;
+    width:100%;
+    flex:1;
+    display:flex;
+    justify-content: center;
+    transition: all 1s;
+}
+
+.panel1{
+    background-image:url('./img/dog.jpg');
+    background-size:cover;
+    background-position: center;
+}
+
+.panel2{
+    background-image:url('./img/sheep.jpg');
+    background-size:cover;
+    background-position: center;
+}
+
+.panel3{
+    background-image:url('./img/cow.jpg');
+    background-size:cover;
+    background-position: center;
+}
+
+.panel4{
+    background-image:url('./img/cat.jpg');
+    background-size:cover;
+    background-position: center;
+}
+
+.panel5{
+    background-image:url('./img/duck.jpg');
+    background-size:cover;
+    background-position: center;
+}
+
+.panel6{
+    background-image:url('./img/cow.jpg');
+    background-size:cover;
+    background-position: center;
+}
+
+.animal{
+    font-size: 50px;
+    font-weight: bold;
+    padding:10px;
+    font-family: 'Bevan', cursive;
+    color: lightsalmon;
+}
+
+.panel.open{
+    flex: 5;
+}
